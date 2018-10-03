@@ -19,5 +19,7 @@ def reverse_array(ar)
 end
 
 def kesha_maker(ar)
+  arr=[]
   ar.each {|x| x[2].replace"$"}
+  arr.push(x)
 end
