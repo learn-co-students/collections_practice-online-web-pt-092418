@@ -21,4 +21,5 @@ end
 def kesha_maker(ar)
   arr=[]
   ar.each {|x| arr.push(x[2].replace"$")}
+  arr
 end
