@@ -7,5 +7,5 @@ ar.sort{|x,y| y<=> x}
 end
 
 def sort_array_char_count(ar)
-  ar.sort{|x.length,y.length| x<=>y}
+  ar.sort{|x.length , y.length| x<=>y}
 end
