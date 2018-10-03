@@ -3,7 +3,7 @@ def sort_array_asc(ar)
 end
 
 def sort_array_desc(ar)
-ar.sort{|x,y| y<=> x}
+ar.sort{|x,y| y<=>x}
 end
 
 def sort_array_char_count(ar)
@@ -12,4 +12,8 @@ end
 
 def swap_elements(ar)
   ar.sort{|x,y| x[1]<=>y[2]}
+end
+
+def reverse_array(ar)
+  ar.reverse
 end
