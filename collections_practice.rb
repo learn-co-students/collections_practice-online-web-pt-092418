@@ -20,6 +20,5 @@ end
 
 def kesha_maker(ar)
   arr=[]
-  ar.each {|x| x[2].replace"$"}
-  arr.push(x)
+  ar.each {|x| arr.push(x[2].replace"$")}
 end
